@@ -8,33 +8,16 @@ echo "Setting up Homebrew Cask..."
 echo "Installing casks..."
 
 casks=(
-  1password
-  alfred
-  appcleaner
-  boom-3d
-  chromedriver
+  alfred@4
   figma
   firefox
-  font-hack
-  forklift
   google-chrome
-  google-cloud-sdk
-  google-drive
   imageoptim
   iterm2
-  logitech-camera-settings
-  logitech-options
-  microsoft-edge
-  moom
-  postman
   qlcolorcode
   qlimagesize
   qlstephen
   quicklook-json
-  slack
-  tableplus
-  tidal
-  tower
   visual-studio-code
   webpquicklook
 )
