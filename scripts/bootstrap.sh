@@ -6,19 +6,6 @@ set -e
 sudo mkdir -p "/usr/local/lib"
 sudo mkdir -p "/usr/local/bin"
 
-# Create files
-if [ ! -e .gitconfig-oss ]; then
-   echo "[user]\n  email = <you@example.com>" >> .gitconfig-oss
-fi
-
-if [ ! -e .gitconfig-work ]; then
-   echo "[user]\n  email = <you@example.com>" >> .gitconfig-work
-fi
-
-if [ ! -e .work_profile ]; then
-   echo "" >> .work_profile
-fi
-
 # Run scripts
 sh scripts/symlink.sh
 sh scripts/xcode.sh

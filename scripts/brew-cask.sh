@@ -3,10 +3,6 @@ set -e
 
 echo "Setting up Homebrew Cask..."
 
-# Tap
-brew tap homebrew/cask-fonts
-brew tap homebrew/cask-versions
-brew tap homebrew/cask-drivers
 
 # Install casks
 echo "Installing casks..."
