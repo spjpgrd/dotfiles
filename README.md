@@ -16,19 +16,22 @@ Run scripts:
 source scripts/bootstrap.sh
 ```
 
-### Add a spacer to the dock & restart it to see the changes
+### Add a spacer to the dock
 
 Left side:
 ```zsh
-defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}' \
-&& killall Dock
+defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
 ```
 
 Right side:
 ```zsh
-defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}' \
-&& killall Dock
+defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'
 ```
+
+Then restart the dock:
+```zsh
+ killall Dock
+ ```
 
 ## Resources
 
