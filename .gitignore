@@ -10,6 +10,5 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
-# Sensitive information
-.gitconfig-*
-.work_profile
+# Sensitive information / I don't have multiple git configs
+# .gitconfig-*

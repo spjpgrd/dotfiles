@@ -3,23 +3,14 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Libs & Plugins
-source ~/.antigen.zsh
+# Make powerlevel10k the default theme
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
-antigen theme romkatv/powerlevel10k
-antigen bundle common-aliases
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-history-substring-search
-antigen apply
-
-# Activate profiles
+# Activate profiles1
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-test -e "${HOME}/.work_profile" && source ~/.work_profile
-source ~/.bash_profile
+source ~/.zprofile
+source ~/.zshrc
 
-# Activate asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 # Activate iTerm scripting
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

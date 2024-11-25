@@ -1,11 +1,6 @@
 [user]
-	name = Luke Askew
-
-[include]
-  path = .gitconfig-work
-
-[includeif "gitdir:~/Development/oss/"]
-  path = .gitconfig-oss
+	name = seán patrick john paul george ringo doran
+	email = me@spjpgrd.com
 
 [pager]
   diff = diff-so-fancy | less --tabs=4 -RFX
