@@ -1,0 +1,7 @@
+# To-do
+- [ ] Delete unused and unnecessary stuff, file by file
+- [ ] Add a script to install all the apps from the cask file from other setup script
+- [ ] Get spacer tile
+  - [ ] Make it the primary app section
+- [ ] Fix 1Password, maybe have to submit a weird suppport ticket
+

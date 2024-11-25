@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Exit immediately if any command returns a non-zero exit status (i.e., encounters an error).
 set -e
 
 # Create directories
