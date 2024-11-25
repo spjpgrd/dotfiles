@@ -23,7 +23,7 @@ Left side:
 defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'
 ```
 
-Rigth side:
+Right side:
 ```zsh
 defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
 ```
