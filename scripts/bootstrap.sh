@@ -12,7 +12,7 @@ sh scripts/symlink.sh
 sh scripts/xcode.sh
 sh scripts/brew.sh
 sh scripts/brew-cask.sh
-sh scripts/asdf.sh
+sh scripts/appstore.sh
 sh scripts/zsh.sh
 sh scripts/macos.sh
 

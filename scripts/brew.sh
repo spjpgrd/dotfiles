@@ -42,5 +42,8 @@ brew install thefuck
 brew install tree
 brew install wget
 
+# Install downloader
+brew install mas
+
 # Remove outdated versions from the cellar
 brew cleanup
