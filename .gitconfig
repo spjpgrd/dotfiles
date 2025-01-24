@@ -43,3 +43,8 @@
 
 [alias]
   l = log --graph --date=short
+[http]
+	postBuffer = 524288000
+	version = HTTP/1.1
+	lowSpeedLimit = 0
+	lowSpeedTime = 999999
