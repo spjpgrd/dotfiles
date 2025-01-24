@@ -139,6 +139,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias cursor='open -a "Cursor"'
 alias code='open -a "Visual Studio Code"'
+alias aliases='grep "^alias" ~/.zshrc'
+alias dev='cd ~/Developer'
+alias spj='cd ~/Developer/spjpgrd'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
